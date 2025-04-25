@@ -82,6 +82,9 @@ class MCPClient {
             tools: this.tools,
         });
 
+        console.info("Response from AI Model:");
+        console.log(response);
+
         const finalText = [];
         const toolResults = [];
 
